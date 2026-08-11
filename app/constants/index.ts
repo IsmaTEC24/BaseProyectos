@@ -5,8 +5,8 @@ export { ICON_HEADER_TYPE, ICON_ALTS, ICON_PATHS } from "@/app/components/icons/
 export { FIRESTORE } from "./firebase/firestore.constant";
 export { STORAGE } from "./firebase/storage.constant";
 export { STRING } from "./strings/String.types";
+export { DATA_ENTRY_FEATURE } from "./strings/DataEntryFeature.constants";
 export { FIELD_IDS } from "./fields/FieldIds.constants";
-export type { SessionConfigType } from "@/app/components/session/constants/Session.constants";
 export {
   Classes,
   BUTTON,
@@ -21,11 +21,6 @@ export {
   IS_RECAPTCHA_ENABLED,
 } from "@/app/components/re-captcha/constants/ReCAPTCHA.constants";
 export { BROWSER_EVENTS } from "./events/Event.constants";
-export { SESSION_TIMEOUT_WARNING_MODAL } from "@/app/components/session/constants/SessionTimeoutWarning.constants";
-export {
-  SESSION_CONFIG,
-  SESSION_CONFIG_TYPES,
-} from "@/app/components/session/constants/Session.constants";
 export { FORM_FIELD } from "@/app/components/form-field/constants/FormField.constants";
 export { TitleVariant } from "@/app/components/title/constants";
 export { ERROR_STYLES } from "./errors/ErrorStyles.constants";
